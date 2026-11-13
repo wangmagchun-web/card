@@ -113,9 +113,10 @@
     z-index: -1; pointer-events: none;
   }
 
-  .top { display: flex; justify-content: space-between; align-items: baseline; }
+  .top { display: flex; justify-content: space-between; align-items: center; }
   .brand { color: #EF3B24; font-weight: 900; font-size: 5.3cqw; letter-spacing: -0.03em; line-height: 1; }
-  .org { color: #6D6E71; font-size: 3.2cqw; font-weight: 500; letter-spacing: -0.01em; }
+  .org { color: #6D6E71; font-size: 3.2cqw; font-weight: 500; letter-spacing: -0.01em; display: flex; align-items: center; gap: 1.6cqw; }
+  .org .mark { height: 5cqw; width: auto; display: block; flex: none; }
   .org b { color: #1B1B1D; font-weight: 700; }
 
   .who { margin-top: auto; display: flex; align-items: flex-end; gap: 2.8cqw; }
@@ -246,7 +247,7 @@
       <div class="glow"></div>
       <div class="top">
         <div class="brand">메리츠화재</div>
-        <div class="org">수도권사업단 <b>광명센터</b></div>
+        <div class="org"><img class="mark" src="capital-region-mark.png" alt="수도권사업단 로고"><span>수도권사업단 <b>광명센터</b></span></div>
       </div>
       <div class="who">
         <h1 class="name">임현택</h1>
